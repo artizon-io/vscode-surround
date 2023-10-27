@@ -154,6 +154,8 @@ const matchPatternNormalDirection = <T extends boolean>(
   }
 };
 
+// TODO: inverse pattern should be separately configured
+
 /**
  * Match a pattern against a text in reverse direction (from right to left)
  * @param pattern The pattern to match against

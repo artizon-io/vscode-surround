@@ -3,7 +3,7 @@
  */
 export const NUM_CUSTOM_PATTERNS = 10;
 
-export const EXTENSION_NAME = "vscode-surround";
+export const EXTENSION_NAME = "artizon-vscode-surround";
 export const EXTENSION_DISPLAY_NAME = "VSCode Surround";
 
 /**
