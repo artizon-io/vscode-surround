@@ -1,0 +1,8 @@
+.vscode/
+src/
+test-resources/
+tests*/
+.gitignore
+.mocharc.js
+flake*
+tsconfig*

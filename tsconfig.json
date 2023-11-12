@@ -8,6 +8,6 @@
     "strict": true,
     "esModuleInterop": true
   },
-  "include": ["src/**/*", "src/webview/vite.config.ts"],
+  "include": ["src/**/*"],
   "exclude": ["node_modules", "src/webview"]
 }

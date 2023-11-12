@@ -1,5 +1,5 @@
 {
-  "name": "artizon-vscode-surround",
+  "name": "vscode-surround",
   "displayName": "VSCode Surround",
   "description": "A vscode extension analogous to *vim-surround",
   "icon": "public/icon.png",
@@ -40,153 +40,153 @@
   "contributes": {
     "commands": [
       {
-        "command": "artizon-vscode-surround.select-in-parenthesis-exclusive",
+        "command": "vscode-surround.select-in-parenthesis-exclusive",
         "title": "VSCode Surround: Select in ( ) parenthesis (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-curly-exclusive",
+        "command": "vscode-surround.select-in-curly-exclusive",
         "title": "VSCode Surround: Select in { } curly brackets (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-square-exclusive",
+        "command": "vscode-surround.select-in-square-exclusive",
         "title": "VSCode Surround: Select in [ ] square brackets (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-angle-exclusive",
+        "command": "vscode-surround.select-in-angle-exclusive",
         "title": "VSCode Surround: Select in < > angle brackets (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-single-quote-exclusive",
+        "command": "vscode-surround.select-in-single-quote-exclusive",
         "title": "VSCode Surround: Select in ' ' single quotes (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-double-quote-exclusive",
+        "command": "vscode-surround.select-in-double-quote-exclusive",
         "title": "VSCode Surround: Select in \" \" double quotes (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-backtick-exclusive",
+        "command": "vscode-surround.select-in-backtick-exclusive",
         "title": "VSCode Surround: Select in ` ` backticks (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-backtick-block-exclusive",
+        "command": "vscode-surround.select-in-backtick-block-exclusive",
         "title": "VSCode Surround: Select in ``` ``` backtick block (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-parenthesis-inclusive",
+        "command": "vscode-surround.select-in-parenthesis-inclusive",
         "title": "VSCode Surround: Select in ( ) parenthesis (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-curly-inclusive",
+        "command": "vscode-surround.select-in-curly-inclusive",
         "title": "VSCode Surround: Select in { } curly brackets (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-square-inclusive",
+        "command": "vscode-surround.select-in-square-inclusive",
         "title": "VSCode Surround: Select in [ ] square brackets (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-angle-inclusive",
+        "command": "vscode-surround.select-in-angle-inclusive",
         "title": "VSCode Surround: Select in < > angle brackets (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-single-quote-inclusive",
+        "command": "vscode-surround.select-in-single-quote-inclusive",
         "title": "VSCode Surround: Select in ' ' single quotes (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-double-quote-inclusive",
+        "command": "vscode-surround.select-in-double-quote-inclusive",
         "title": "VSCode Surround: Select in \" \" double quotes (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-backtick-inclusive",
+        "command": "vscode-surround.select-in-backtick-inclusive",
         "title": "VSCode Surround: Select in ` ` backticks (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-backtick-block-inclusive",
+        "command": "vscode-surround.select-in-backtick-block-inclusive",
         "title": "VSCode Surround: Select in ``` ``` backtick block (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-1-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-1-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 1 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-2-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-2-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 2 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-3-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-3-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 3 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-4-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-4-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 4 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-5-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-5-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 5 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-6-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-6-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 6 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-7-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-7-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 7 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-8-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-8-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 8 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-9-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-9-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 9 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-10-exclusive",
+        "command": "vscode-surround.select-in-custom-pattern-10-exclusive",
         "title": "VSCode Surround: Select in Custom Pattern 10 (exclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-1-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-1-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 1 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-2-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-2-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 2 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-3-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-3-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 3 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-4-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-4-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 4 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-5-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-5-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 5 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-6-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-6-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 6 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-7-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-7-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 7 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-8-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-8-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 8 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-9-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-9-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 9 (inclusive)"
       },
       {
-        "command": "artizon-vscode-surround.select-in-custom-pattern-10-inclusive",
+        "command": "vscode-surround.select-in-custom-pattern-10-inclusive",
         "title": "VSCode Surround: Select in Custom Pattern 10 (inclusive)"
       }
     ],
     "configuration": {
       "properties": {
-        "artizon-vscode-surround.custom-patterns": {
+        "vscode-surround.custom-patterns": {
           "type": "object",
           "default": {
             "1": {
