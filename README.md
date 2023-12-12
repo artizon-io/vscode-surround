@@ -1,6 +1,6 @@
 # VSCode Surround
 
-A vscode extension analogous to *vim-surround
+A vscode extension analogous to vim's pair motion
 
 <!-- ![Showcase]() -->
 
