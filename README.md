@@ -23,7 +23,7 @@ The following selection patterns are provided out-of-the-box:
 
 **Custom Pattern**
 
-Custom selection patterns can be specified in `Preferences`. Match patterns are specified as Javascript regular expression strings. An example configuration is given below. Custom pattern 2 here formulates a typical Typescript function declaration. Notes that this custom pattern is _fragile_. We recommend keeping the patterns simple.
+Custom selection patterns can be specified in `Preferences`. Match patterns are specified as Javascript regular expression strings. An example configuration is given below. Custom pattern 2 here formulates a typical Typescript function declaration. Usage with complex patterns should be avoided because such patterns are _fragile_.
 
 ```json
 {
