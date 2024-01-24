@@ -39,3 +39,7 @@ Custom selection patterns can be specified in `Preferences`. Match patterns are 
   }
 }
 ```
+
+## TODO
+
+- Be able to change the brackets like vim-surround
